@@ -76,6 +76,8 @@ public class PCMDataSaver implements Runnable {
                     e.printStackTrace();
                     return;
                 }
+            }else{
+                break;
             }
         }
         try {

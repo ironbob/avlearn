@@ -61,7 +61,7 @@ public class MainActivity extends BasePermissionActivity implements View.OnClick
         if (v == mStart) {
             String fileName = mFileName.getText().toString();
             if (TextUtils.isEmpty(fileName)) {
-                fileName = "/sdcard/testav1.pcm";
+                fileName = "/sdcard/zzz/testav1.pcm";
             }
             mRecorder.start(fileName);
             String timeStr = mRecordTime.getText().toString();

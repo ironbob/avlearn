@@ -8,43 +8,32 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/file_name"
+        android:id="@+id/file_path"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="文件路径" />
-
-    <EditText
-        android:id="@+id/record_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="录制时长(s)" />
-
-    <TextView
-        android:id="@+id/data_size"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/start_btn"
+        android:id="@+id/play_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start" />
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/pause_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停" />
+
+    <Button
+        android:id="@+id/resume_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resume" />
 
     <Button
         android:id="@+id/stop_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="stop" />
+        android:text="停止" />
 
-    <Button
-        android:id="@+id/release_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="release" />
-
-    <Button
-        android:id="@+id/make_wav"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="封装成wav"/>
 </LinearLayout>

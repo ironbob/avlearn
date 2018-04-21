@@ -1,1 +1,1 @@
-include ':app', ':audiorecord', ':permission'
+include ':app', ':audiorecord', ':permission', ':audiotrack'
